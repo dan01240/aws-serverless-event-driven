@@ -133,15 +133,6 @@ To deploy and run this project, you'll need:
    - Verify the data in DynamoDB.
    - Use **CloudWatch Logs** to monitor Lambda execution.
 
-## Testing the System
-
-To verify that the entire workflow functions correctly:
-
-1. **Check EventBridge**: Ensure that the EventBridge rule is triggering Lambda based on the defined schedule.
-2. **Verify SQS and Lambda Integration**: Confirm that messages are being received by Lambda from SQS.
-3. **DynamoDB Data Storage**: Inspect the DynamoDB table to ensure data is being stored correctly.
-4. **CloudWatch Logs**: Use **AWS CloudWatch** to monitor logs, validate successful processing, and troubleshoot any issues.
-
 ## Related Medium Article
 
 For a more detailed explanation and insights about building event-driven serverless systems with AWS, check out our Medium article: [Building a Serverless Event-Driven System with AWS EventBridge, SQS, Lambda, and DynamoDB](https://medium.com/@daiki01240/serverless-architecture-building-a-system-using-eventbridge-sqs-lambda-and-dynamodb-234f2a250d13) (replace this link with your actual Medium article URL).
