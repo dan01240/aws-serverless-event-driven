@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // 生成されるJavaScriptのバージョン
+    "module": "commonjs", // Node.jsで使用するモジュール形式
+    "strict": true, // 厳密な型チェック
+    "esModuleInterop": true, // ESモジュールとの互換性
+    "outDir": "./dist", // コンパイル後の出力フォルダ
+    "rootDir": "./src" // ソースファイルのルートディレクトリ
+  },
+  "include": ["src/**/*"]
+}
